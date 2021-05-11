@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{611A530D-17A1-40CA-9DC5-2F4A8EE0DD52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DC9B3F47-CB2D-427B-A009-E97AA42F2ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F550F9C2-3BF6-4E81-8426-07337AC2FA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankReconciliationSystem.Domain", "BankReconciliationSystem.Domain\BankReconciliationSystem.Domain.csproj", "{345A3865-A929-4A08-8973-0E372765685E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankReconciliationSystem.Data", "BankReconciliationSystem.Data\BankReconciliationSystem.Data.csproj", "{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankReconciliationSystem.API", "BankReconciliationSystem.API\BankReconciliationSystem.API.csproj", "{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankReconciliationSystem.Service", "BankReconciliationSystem.Service\BankReconciliationSystem.Service.csproj", "{0704CA9E-DFBE-4C78-941E-FEA9293FBB45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345A3865-A929-4A08-8973-0E372765685E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345A3865-A929-4A08-8973-0E372765685E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345A3865-A929-4A08-8973-0E372765685E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345A3865-A929-4A08-8973-0E372765685E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0704CA9E-DFBE-4C78-941E-FEA9293FBB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0704CA9E-DFBE-4C78-941E-FEA9293FBB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0704CA9E-DFBE-4C78-941E-FEA9293FBB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0704CA9E-DFBE-4C78-941E-FEA9293FBB45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{345A3865-A929-4A08-8973-0E372765685E} = {DC9B3F47-CB2D-427B-A009-E97AA42F2ED4}
+		{70D9B7EB-9DE6-4CBC-892A-DAE27509CF45} = {F550F9C2-3BF6-4E81-8426-07337AC2FA07}
+		{21DC6AF2-D3CE-46F1-86E9-67B98CB5E35F} = {F550F9C2-3BF6-4E81-8426-07337AC2FA07}
+		{0704CA9E-DFBE-4C78-941E-FEA9293FBB45} = {611A530D-17A1-40CA-9DC5-2F4A8EE0DD52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C06C80C-8465-48D7-89D1-3260AF146238}
+	EndGlobalSection
+EndGlobal
